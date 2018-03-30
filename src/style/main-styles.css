@@ -1,0 +1,44 @@
+h3 {
+    font-size: 20px;
+    font-weight: 550;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.slightlyRounded {
+    border-radius: 4px;
+}
+
+.standardMargins {
+    margin: 4px 8px;
+}
+
+.spacer {
+    flex: 1 0 auto;
+}
+
+button:focus {
+    outline: none;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid red;
+}
+
+.expand {
+    overflow: hidden;
+    transition-property: height;
+    transition-duration: .4s; 
+}
+    
+.expand[aria-expanded="false"] {
+    height: 0 !important;
+}
+
+.u-no-transition {
+    transition-duration: 0s !important;
+}
